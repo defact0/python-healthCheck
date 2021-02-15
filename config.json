@@ -1,0 +1,32 @@
+{
+  "config": {
+    "id": "보내는사람(구글메일)",
+    "pw": "보내는사람(구글앱비밀번호)",
+    "title": "[INFO] 포트 점검결과 입니다.",
+    "delay": 3,
+    "retry": 3,
+    "timeout": 3
+  },
+  "address": [
+    "abc1@test.com",
+    "abc2@test.com",
+    "abc3@test.com"
+  ],
+  "service": [
+    {
+      "name": "test_Service_01",
+      "ip": "192.168.10.1",
+      "port": 80
+    },
+    {
+      "name": "test_Service_02",
+      "ip": "192.168.20.20",
+      "port": 8080
+    },
+    {
+      "name": "test_Service_03",
+      "ip": "192.168.30.15",
+      "port": 80
+    }
+  ]
+}
